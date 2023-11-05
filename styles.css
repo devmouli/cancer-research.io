@@ -1,0 +1,105 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #e0f2f1; /* Light Blue Background Color */
+    text-align: center;
+    padding-top: 50px;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #4CAF50;
+}
+
+/* Rest of your CSS styles remain unchanged */
+
+
+.question-container {
+    margin: 20px 0;
+    text-align: center;
+    padding: 30px;
+    background-color: #f5f5f5;
+    border-radius: 15px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    font-size: 24px;
+    color: #4CAF50;
+}
+
+.radio-group {
+    margin-bottom: 20px;
+}
+
+.radio-group input[type="radio"] {
+    display: none;
+}
+
+.radio-group label {
+    background-color: #ffffff;
+    border: 2px solid #4CAF50;
+    color: #4CAF50;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.radio-group label:hover {
+    background-color: #4CAF50;
+    color: #ffffff;
+}
+
+.button-container {
+    margin-bottom: 20px;
+}
+
+.prev-button,
+.next-button,
+.submit-button {
+    background-color: #4CAF50;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    margin: 0 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.prev-button:hover,
+.next-button:hover,
+.submit-button:hover {
+    background-color: #45a049;
+}
+
+.results-container {
+    display: none;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    text-align: left;
+}
+
+li {
+    margin: 10px 0;
+}
+
+a {
+    color: #4CAF50;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
